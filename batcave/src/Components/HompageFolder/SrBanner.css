@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap');
 
+@font-face {
+    font-family: 'Agdasima';
+    src: url('../../Assets/Agdasima-Regular.ttf');
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -18,25 +23,32 @@
     align-items: center;    
     justify-content: center;
     text-align: center;
+   
 }
 .banner h1{
     color: #FFF;
-    font-family: Agdasima;
+    font-family: 'Agdasima';
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     margin-bottom: 50px;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 .banner p{
     color: #FFF;
     text-align: center;
-    font-family: Agdasima;
+    font-family: 'Agdasima';
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
     line-height: 60px; /* 125% */
     margin-bottom: 50px;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 .banner button{
     width: 154px;
@@ -49,6 +61,7 @@
     overflow: hidden;
     background: transparent;
     color: #ffffff;
+    font-family: 'Agdasima';
 }
 .banner button:before{
      content: "Ready to join";
@@ -70,3 +83,14 @@
 .banner button:hover:before{
     transform: translateY(0);
 }
+
+
+ @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
