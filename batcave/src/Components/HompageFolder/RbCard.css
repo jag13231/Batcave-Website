@@ -1,143 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body{
+    max-width: 1440px;
+}
 
 @font-face {
-    font-family: 'Agdasima';
-    src: url('../../Assets/Agdasima-Regular.ttf');
+    font-family: "Agdasima";
+    src: url("../../Assets/Agdasima-Regular.ttf");
 }
 
-.upcoming_events_container
-{
-    background: linear-gradient(180deg, #000000 48.08%, #252424 100%);
-    
-    
-    
-
-}
-
-.card
-{
-    display: flex;
-    justify-content: center;
-    
-    gap: 12px;
-    padding-top: 42px;
-    padding-bottom: 42px;
-    
-
-}
-.rb_card_container
-{
-    /* height: 669px; */
-    background-color: #D9D9D9;
-
-    border-radius: 16px;
-    height: 669px;
-    text-align: center;
-    width: 439px ;
-    
-    
-
-    
-}
-
-.registration_card
-{
-    display: flex;  
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    /* padding-left: 42px;
-    padding-right: 42px; */
+.upcoming_events_container{
     width: 100%;
-
-    
-    
-    
-    
-}
-
-.heading_one
-{
-    color: #FFFFFF;
-    weight: 700;    
-    font-size: 36px;
-    font-family: Agdasima;
-
-    
-    
-}
-
-.heading_two
-{
-    color : #252424;
-    weight: 700;    
-    font-size: 36px;
-    font-family: Agdasima;  
-}
-.rb_card_image
-{
-    height: 350px;
-    width: 439px;
-
-}
-
-
-.rb_card_button
-{
-    width: 391px;
-    height: 40px;
-    border: 1px;
-    border-radius: 8px;
-    background-color: #000000;
-    color: #FFFFFF;
-    margin-left: 24px;
-    margin-right: 24px;
-    
-
-}
-
-.card_heading
-{
-    font-family: agdasima;
-    font-weight: 700;
-    color: #000000;
-    text-align: center;
-    margin-top: 24px;
-    margin-bottom: 16px;
-}
-.card_icons
-{
+    height:600px;
     display: flex;
-    gap: 24px;
-    padding-left: 50px;
-    padding-right: 50px;
-    font-family: agdasima;
-    font-size: 20px;
-
+    flex-direction: column;
+    align-items: center;    
+    justify-content: space-around;
+    border:1px solid white;
 }
-.calendar_icon
-{
-    width: 18px;
-    height: 18px ;
-    
-    
+.event_batch{
+    width:254px;
+    height:43px;
+    border:1px solid white;
+    color:white;
+    text-align:center;
+    font-family:"Agdasima";
+    font-size: 36px;
+    font-weight:700;
+    align-content: center;
 }
-.card_text
-{
-    font-family: poppins;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
-    margin-top: 24px;
-    margin-bottom: 28px;
-    padding-left: 20px;
-    padding-right: 19px;
+.event_batch span{
+    color: rgba(80, 80, 80, 1);
+    box-shadow: 0px 8px 4px 0px rgba(0, 0, 0, 0.25);
 }
-.rb_card_button
-{
-    font-family: Agdasima;
-    font-size: 20px;
-    font-weight: 400
-
+.cards_container{
+    width:100%;
+    height:450px;
+    display: flex;
+    justify-content: center;
+    gap:19px;
+    align-items: center;
+    border:1px solid white;
 }
+.event_cards{
+    width:300px;
+    height:400px;
+    border:1px solid white;
+}
+.event_img{
+    width:100%;
+    height:250px;
+    border-radius: 16px;
+}
+.event_img img{
+    width:100%;
+    height:100%;
+    border-radius: 16px;
+}    
