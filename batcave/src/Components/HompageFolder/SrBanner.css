@@ -14,8 +14,12 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+.sr_banner_container, .sr-banner, .banner {
+    width: 100vw;
+    max-width: 100%;
+    box-sizing: border-box;
+}
 .banner{
-    border:1px solid red;
     width: 100%;
     height: 450px;
     background-image: url('../../Assets/supercars-photo.jpg');
