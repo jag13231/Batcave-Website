@@ -16,6 +16,8 @@
     font-weight: 700;
     line-height: normal;
     letter-spacing: 1.8px;
+    background-image:  url(..//..//Assets/image.png);
+    background-position: left;
 }
 .blog span{
     color: #505050;
@@ -26,7 +28,7 @@
     line-height: normal;
     letter-spacing: 1.8px;       
 }
-.blog-container{
+.blog-container1{
     width: 1453px;
     height: 382px;
     flex-shrink: 0;
@@ -36,14 +38,27 @@
     align-items: center;
     color: #FFF;
     width: 100%;
+    background-image: url(..//..//Assets/image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 .img-box{
     width: 50%;
     height: 214px;
     flex-shrink: 0;
+    padding-left: 50px;
+}
+.img-box img{
+    width: 573px;
+    height: 214px;
+    flex-shrink: 0;
+    border-radius: 16px;
 }
 .txt-box{
     width: 50%;
+    padding-right: 50px;
 }
 .txt-box h3{
    color: #FFF;
@@ -54,12 +69,14 @@
    font-weight: 700;
    line-height: normal;
    letter-spacing: 1.4px;
+   margin-bottom: 35px;
 }
 .txt-box ul{
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 30px;
+    margin-bottom: 20px;
 }
 .txt-box ul li{
     display: flex;
@@ -70,10 +87,80 @@
 .txt-box p{
     color: #FFF;
     font-family: 'Poppins';
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 22px; /* 110% */
     letter-spacing: 1px;
     text-align: start;
+    margin-top: 50px;
+}
+.blog-container2{
+    width: 1453px;
+    height: 382px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    width: 100%;
+    background-image: url(..//..//Assets/image\ \(1\).png);
+    background-position:left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.txt-box2{
+    width: 50%;
+    padding-right: 50px;
+    text-align: justify;
+    justify-items: center;
+    padding-left: 50px;
+    margin: 0;
+}
+.txt-box2 p{
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 110% */
+    letter-spacing: 1px;
+    text-align: left;
+    padding-left: 60px;
+    margin-top: 30px;
+}
+.txt-box2{
+    width: 50%;
+    padding-right: 50px;
+}
+.txt-box2 h3{
+   color: #FFF;
+   text-align: center;
+   font-family: 'Agdasima';
+   font-size: 28px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   letter-spacing: 1.4px;
+   margin-bottom: 35px;
+}
+.txt-box2 ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 10px;
+}
+.txt-box2 ul li{
+    display: flex;
+    list-style: none;
+    gap: 5px;
+    align-items: center;
+}
+.txt-box2 img{
+     width: 573px;
+     height: 214px;
+     flex-shrink: 0;
+     border-radius: 16px;
 }
