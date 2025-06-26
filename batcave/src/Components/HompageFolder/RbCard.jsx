@@ -1,10 +1,9 @@
 import React from "react";
 import TrafficImg from "../../Assets/traffic-road-night.jpg";
-import SportsCarImg from "../../Assets/sport-cars-parade-race-highway.jpg"
-import Joyful from "../../Assets/joyful.jpg"
+import SportsCarImg from "../../Assets/sport-cars-parade-race-highway.jpg";
+import Joyful from "../../Assets/joyful.jpg";
 import { LuCalendarDays, LuClock, LuLocate } from "react-icons/lu";
 import "./RbCard.css";
-
 
 const RbCard = () => {
   return (
