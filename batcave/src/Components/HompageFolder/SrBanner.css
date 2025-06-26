@@ -5,8 +5,8 @@
     src: url('../../Assets/Agdasima-Regular.ttf');
 }
 body{
-    background: linear-gradient(180deg, #000000 48.08%, #252424 100%);
-
+     background: linear-gradient(180deg, #000000 48.08%, #252424 100%);
+     max-width: 1440px;
 }
 
 *{
