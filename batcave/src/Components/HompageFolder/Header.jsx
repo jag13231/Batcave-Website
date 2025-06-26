@@ -1,18 +1,13 @@
 import Logo from "../../Assets/Logo.png";
-import  Aos from 'aos';
-import 'aos/dist/aos.css';
 import './Header.css'
-import { useEffect } from "react";
 const Header = () => {
-    useEffect(()=>{
-     Aos.init()
-    },[])
+   
   return (
     <>
         <div className="navbar_container">
-               <img   src={Logo} alt="Logo" data-aos="fade-right" data-aos-duration="1000" />
+               <img   src={Logo} alt="Logo"/>
                 <div className="navItems" >
-                    <ul data-aos = "zoom-in" data-aos-duration='1500'> 
+                    <ul> 
                         <li>Home</li>
                         <li>About Us</li>
                         <li>Event</li>
@@ -23,7 +18,7 @@ const Header = () => {
                     </ul>
                 </div>
             
-                <button className="navButton" data-aos="fade-left" data-aos-duration='1000'>Login</button>
+                <button className="navButton">Login</button>
         </div>
     </>
   )
