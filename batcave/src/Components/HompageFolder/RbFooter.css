@@ -1,0 +1,136 @@
+@font-face {
+  font-family: "Agdasima";
+  src: url("../../Assets/Agdasima-Regular.ttf");
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../Assets/Poppins-Regular.ttf");
+}
+
+.footer_main {
+  width: 100vw;
+
+  max-width: 100%;
+  box-sizing: border-box;
+  height: 357px;
+  background-color: #000000;
+}
+
+.footer_heading {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: Agdasima;
+  margin-left: 42px;
+  margin-top: 18px;
+}
+
+.mail_image {
+  width: 131.7px;
+  height: 131.7px;
+  position: absolute;
+  left: 0;
+}
+.inputbox_mail {
+  width: 767px;
+  height: 56px;
+  border-radius: 8px;
+  padding-left: 64px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-left: 50px;
+  margin-right: 16px;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  letter-spacing: 5%;
+}
+.main_form_container {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  position: relative;
+  margin-left: 119px;
+  margin-top: 22px;
+}
+.footer_button {
+  width: 324px;
+  height: 56px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  font-family: Agdasima;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+  
+  
+  
+}
+.footer_button:hover {
+  background-color: black;
+    color: white;
+    border: 0.5px solid #ffffff ;
+}
+.contact_info {
+  display: flex;
+  gap: 12px;
+  justify-content: row;
+  font-family: poppins;
+  font-size: 16px;
+  font-weight: 300;
+  color: #cccccc;
+}
+.membership_heading {
+  font-family: poppins;
+  font-size: 16px;
+  font-weight: 300;
+  color: #cccccc;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.footer_info {
+  margin-left: 203px;
+}
+.enquiries {
+  display: flex;
+}
+
+.enquries_content {
+  font-family: poppins;
+  font-size: 16px;
+  font-weight: 300;
+  color: #666666;
+}
+.border {
+  width: 1px;
+  height: 16px;
+  font-size: 32px;
+  border: 1px solid #666666;
+  margin-left: 26px;
+  margin-top: 4px;
+}
+.footer_bottom {
+  display: flex;
+  gap: 444px;
+  margin-left: 42px;
+  margin-top: 42px;
+
+}
+
+.footer_bottom_heading {
+  color: #9a9a9a;
+  font-size: 14px;
+  font-family: poppins;
+}
+.footer_bottom_links {
+  color: #9a9a9a;
+  font-size: 14px;
+  font-family: poppins;
+  font-weight: 400;
+  display: flex;
+  gap: 24px;
+}
+
