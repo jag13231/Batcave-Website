@@ -22,7 +22,6 @@ const JgSocialMedia = () => {
 
             </div>
             <div className="media_item01">
-                <div className="media_item">
                <div className="items">
                  <h4><SlSocialLinkedin /></h4>
                 <p>Linked in</p>
@@ -30,8 +29,6 @@ const JgSocialMedia = () => {
                 <h5>Follow our Latest Photos and Stories</h5>
                 <button className="follow_button">Follow</button>
                </div>
-
-            </div>
                 
             </div>
 
