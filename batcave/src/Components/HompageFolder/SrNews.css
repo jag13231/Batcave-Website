@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Agdasima';
+    src: url('../../Assets/Agdasima-Regular.ttf');
+}
+
+.blog{
+    width: 100%;
+}
+.blog h1{
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 8px 4px rgba(29, 28, 28, 0.25);
+    font-family: Agdasima;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.8px;
+}
+.blog span{
+    color: #505050;
+    font-family: Agdasima;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.8px;       
+}
+.blog-container{
+    width: 1453px;
+    height: 382px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    width: 100%;
+}
+.img-box{
+    width: 50%;
+    height: 214px;
+    flex-shrink: 0;
+}
+.txt-box{
+    width: 50%;
+}
+.txt-box h3{
+   color: #FFF;
+   text-align: center;
+   font-family: 'Agdasima';
+   font-size: 28px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   letter-spacing: 1.4px;
+}
+.txt-box ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+.txt-box ul li{
+    display: flex;
+    list-style: none;
+    gap: 5px;
+    align-items: center;
+}
+.txt-box p{
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 110% */
+    letter-spacing: 1px;
+    text-align: start;
+}
