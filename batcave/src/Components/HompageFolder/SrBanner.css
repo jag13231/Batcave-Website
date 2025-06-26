@@ -6,6 +6,7 @@
 }
 body{
     background: linear-gradient(180deg, #000000 48.08%, #252424 100%);
+    max-width: 1440px;
 
 }
 
@@ -16,7 +17,7 @@ body{
 }
 .banner{
     width: 100%;
-    height: 450px;
+    height: 100vh;
     background-image: url('../../Assets/supercars-photo.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -37,7 +38,6 @@ body{
     font-weight: 700;
     line-height: normal;
     margin-bottom: 50px;
-    animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
@@ -50,7 +50,6 @@ body{
     font-weight: 700;
     line-height: 60px; /* 125% */
     margin-bottom: 50px;
-    animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
@@ -61,7 +60,7 @@ body{
     border-radius: 8px;
     border: 1px solid #FFF;
     position: relative;
-    transition: all 1s;
+    transition: all 1s; 
     overflow: hidden;
     background: transparent;
     color: #ffffff;
@@ -89,12 +88,3 @@ body{
 }
 
 
- @keyframes fadeInAnimation {
-            0% {
-                opacity: 0;
-            }
-
-            100% {
-                opacity: 1;
-            }
-        }
