@@ -1,4 +1,3 @@
-
 *{
     margin: 0;
     padding: 0;
@@ -30,6 +29,7 @@
 .navItems{
     width:60%;
     height: 100%;
+    margin-left: 150px;
 }
 .navItems ul{
     display: flex;
@@ -66,5 +66,12 @@
     color:orange;
 }
 
+.header_container, .header-main, .header {
+    width: 100vw;
+    max-width: 100%;
+    box-sizing: border-box;
+}
 
-    
+
+
+
