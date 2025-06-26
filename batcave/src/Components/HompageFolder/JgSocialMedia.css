@@ -2,20 +2,21 @@
     font-family: "Agdasima";
     src: url("../../Assets/Agdasima-Regular.ttf");
 }
+
 .socialMedia {
     width: 100%;
-    height: 350px;
+    height: 450px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 15px;
     align-items: center;
     background: #ffffff;
+
 }
 
 .connect_batch {
     width: 254px;
     height: 43px;
+    margin-top: 42px;
     color: rgba(0, 0, 0, 1);
     text-align: center;
     font-family: "Agdasima";
@@ -28,17 +29,18 @@
     color: rgba(80, 80, 80, 1);
 }
 
-.media_container{
-    width:100%;
-    height:250px;
+.media_container {
+    width: 100%;
+    height: 250px;
+    margin-top: 42px;
     display: flex;
     justify-content: center;
     gap: 15px;
     align-items: center;
     background: #ffffff;
 }
-            
-.media_item{
+
+.media_item {
     width: 650px;
     height: 250px;
     background-image: url("../../Assets/blackHeadlight.jpg");
@@ -47,8 +49,9 @@
     font-family: "Agdasima";
     border-radius: 16px;
 }
-.media_item01{
-   width: 650px;
+
+.media_item01 {
+    width: 650px;
     height: 250px;
     background-image: url("../../Assets/blackCar.jpg");
     background-size: 650px 250px;
@@ -59,49 +62,54 @@
 }
 
 
-.items{
+.items {
     width: 300px;
     height: 100%;
     display: flex;
     flex-direction: column;
 }
-.items h4{
+
+.items h4 {
     margin-top: 24px;
     margin-left: 52px;
     font-size: 20px;
     font-weight: 400px;
 }
-.items p{
-    margin-top:16px;
-    margin-left:52px;
+
+.items p {
+    margin-top: 16px;
+    margin-left: 52px;
     font-size: 20px;
     font-weight: 400;
 }
-.items span{
+
+.items span {
     margin-top: 18px;
     margin-left: 52px;
     font-size: 20px;
-    font-weight:700;
+    font-weight: 700;
 }
-.items h5{
-    margin-top:8px;
-    margin-left:52px;
+
+.items h5 {
+    margin-top: 8px;
+    margin-left: 52px;
     font-size: 20px;
     font-weight: 400;
 }
-.follow_button{
+
+.follow_button {
     width: 88px;
     height: 40px;
     border: 1px solid rgba(255, 255, 255, 1);
-    font-family: "Agdasima"; 
+    font-family: "Agdasima";
     font-size: 20px;
     font-weight: 400;
     background: #000;
     color: rgba(255, 255, 255, 1);
-    border-radius: 8px ;
+    border-radius: 8px;
     margin-top: 16px;
     margin-left: 52px;
     cursor: pointer;
-    
+
 
 }
