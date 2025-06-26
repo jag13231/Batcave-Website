@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap');
+
+@font-face {
+    font-family: 'Agdasima';
+    src: url('../../Assets/Agdasima-Regular.ttf');
+}
+body{
+     background: linear-gradient(180deg, #000000 48.08%, #252424 100%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    border:1px solid red;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../Assets/supercars-photo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center;
+    text-align: center;
+   
+}
+.banner h1{
+    color: #FFF;
+    font-family: 'Agdasima';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 50px;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.banner p{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Agdasima';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 125% */
+    margin-bottom: 50px;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.banner button{
+    width: 154px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    position: relative;
+    transition: all 1s; 
+    overflow: hidden;
+    background: transparent;
+    color: #ffffff;
+    font-family: 'Agdasima';
+}
+.banner button:before{
+     content: "Ready to join";
+     font-weight: bold;
+     color: #ffffff;
+     position: absolute;
+     left: 0;
+     top: 0;
+     width: 100%;
+     height: 100%;
+     background: rgb(0, 0, 0);
+     transform: translateY(-100%);
+     transition: all 1s;
+  /* center */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.banner button:hover:before{
+    transform: translateY(0);
+}
+
+
