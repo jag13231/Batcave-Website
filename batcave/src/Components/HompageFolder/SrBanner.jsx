@@ -15,8 +15,7 @@ const SrBanner = () => {
         <button
           data-aos="fade-down"
           data-aos-easing="linear"
-          data-aos-duration="1600"
-        >
+          data-aos-duration="1600">
           Join Community
         </button>
       </section>
