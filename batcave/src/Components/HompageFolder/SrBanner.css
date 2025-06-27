@@ -100,15 +100,23 @@ body{
         width: 100%;
         background-position: center;
         background-repeat: no-repeat;
-        background-size: contain;
-        margin-top: -350px;
+        background-size:cover;
+        margin-top:auto;
+        background-image: url(..//../Assets/cars-photo.jpg);
     }
     .banner h1{
         font-size: 30px;
         font-style: small;
         font-weight: 700;
         line-height: small;
-        margin-top: auto;
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+    .banner p{
+        font-size: 20px;
+        font-style: small;
+        line-height: 20px;
+        width: ;
     }
 
 }
