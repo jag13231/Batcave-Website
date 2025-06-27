@@ -12,8 +12,6 @@ function RbFooter() {
 
             <input type="mail"  placeholder='Enter the Email' className='inputbox_mail'/>
             <button className='footer_button' >Join Now</button>
-
-
         </div>
 
         <div className='footer_info'>
@@ -21,21 +19,18 @@ function RbFooter() {
             <div className='contact_info'>
                 <div className='enquiries'>
                  <h2 className='enquries_content' >For Membership Enquiries :</h2>
-                <h2 className='enquries_content'>7550057267</h2>
+                <h2 className='enquries_number'>7550057267</h2>
                 <span className='border'></span>
 
                 </div>
                <div className='enquiries'>
-                 <h2 className='enquries_content' >For Membership Enquiries :</h2>
-                <h2 className='enquries_content'>7550057267</h2>
-                <span className='border'></span>
-
+                  <h2 className='enquries_content' >For Membership Enquiries :</h2>
+                  <h2 className='enquries_number'>7550057267</h2>
+                   <span className='border'></span>
                 </div>
                 <div className='enquiries'>
-                 <h2 className='enquries_content' >For Membership Enquiries :</h2>
-                <h2 className='enquries_content'>7550057267</h2>
-                
-
+                   <h2 className='enquries_content' >For Membership Enquiries :</h2>
+                    <h2 className='enquries_number'>7550057267</h2>
                 </div>
 
             </div>

@@ -3,11 +3,11 @@ import "./SrBanner.css";
 const SrBanner = () => {
   return (
     <div>
-      <section className="banner" data-aos="zoom-out" data-aos-duration="1500">
-        <h1 data-aos="zoom-in-up" data-aos-duration="1800">
+      <section className="banner">
+        <h1>
           Welcome to Batcave
         </h1>
-        <p data-aos="zoom-out" data-aos-duration="1700">
+        <p>
           “AN BATCAVE AUTOMOTIVE CLUB FOR PASSIONATE CAR ENTHUSIASTS
           <br />
           THROUGH THRILLING EVENTS , EXCULSIVE CONTENT “
