@@ -4,7 +4,7 @@ import mail_image from '../../Assets/mailimage.png'
 
 function RbFooter() {
   return (
-    <div className='footer_main container'>
+    <div className='footer_main_container'>
         <h1 className='footer_heading'>Stay Updated for Next Events</h1>
 
         <div className='main_form_container'>
