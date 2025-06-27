@@ -9,7 +9,6 @@
 
 .footer_main {
   width: 100vw;
-
   max-width: 100%;
   box-sizing: border-box;
   height: 357px;
@@ -26,16 +25,21 @@
 }
 
 .mail_image {
-  width: 131.7px;
-  height: 131.7px;
   position: absolute;
   left: 0;
+  width: 160.698px;
+  height: 160.698px;
+  transform: rotate(-5.273deg);
+  flex-shrink: 0;
+  aspect-ratio: 131.70/131.70;
+  /* transform: rotate(3.142rad) */
+  animation: rotate 2s infinite linear;
 }
 .inputbox_mail {
   width: 767px;
   height: 56px;
   border-radius: 8px;
-  padding-left: 64px;
+  padding-left: 90px;
   padding-top: 16px;
   padding-bottom: 16px;
   margin-left: 50px;
@@ -59,14 +63,13 @@
   height: 56px;
   border-radius: 8px;
   background-color: #ffffff;
-  font-family: Agdasima;
+  font-family: 'Agdasima';
   font-size: 20px;
   border: none;
   cursor: pointer;
   transition: 0.3s;
-  
-  
-  
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 .footer_button:hover {
   background-color: black;
@@ -81,6 +84,7 @@
   font-size: 16px;
   font-weight: 300;
   color: #cccccc;
+  align-items: center;
 }
 .membership_heading {
   font-family: poppins;
@@ -133,4 +137,27 @@
   display: flex;
   gap: 24px;
 }
+.enquries_number{
+  color: #666;
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px; /* 200% */
+  padding-left: 10px;
+}
 
+
+
+/* footer email animation */
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
