@@ -7,7 +7,7 @@
   src: url("../../Assets/Poppins-Regular.ttf");
 }
 
-.footer_main {
+.footer_main_container {
   width: 100vw;
 
   max-width: 100%;
@@ -22,7 +22,7 @@
   font-weight: 700;
   font-family: Agdasima;
   margin-left: 42px;
-  margin-top: 18px;
+  padding-top:10px;
 }
 
 .mail_image {
