@@ -9,6 +9,10 @@
     src: url('../../Assets/Agdasima-Regular.ttf');
 }
 
+body{
+    background-color:linear-gradient(180deg, #000000 48.08%, #252424 100%);;
+}
+
 
 .navbar_container {
     width: 100%;
@@ -18,7 +22,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background: linear-gradient(180deg, #000000 48.08%, #252424 100%);
+    background: linear-gradient( #000000 48.08%, #252424 100%);
 
 }
 
