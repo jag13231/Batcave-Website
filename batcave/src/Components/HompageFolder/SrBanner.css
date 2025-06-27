@@ -91,3 +91,24 @@ body{
 }
 
 
+
+
+/* mobile responsive */
+
+@media (max-width: 760px) {
+    .banner{
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-top: -350px;
+    }
+    .banner h1{
+        font-size: 30px;
+        font-style: small;
+        font-weight: 700;
+        line-height: small;
+        margin-top: auto;
+    }
+
+}
