@@ -7,7 +7,7 @@ import { GoLocation } from "react-icons/go";
 
 const SrNews = () => {
   return (
-    <div>
+    <>
       <section className="blog">
         <h1>
           LATEST NEWS <span>& BLOGS</span>{" "}
@@ -71,7 +71,7 @@ const SrNews = () => {
           </div>
         </div>
       </section>
-    </div>
+    </>
   );
 };
 
