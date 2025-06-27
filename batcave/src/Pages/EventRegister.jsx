@@ -1,8 +1,11 @@
 import React from 'react'
+import Register from "../Components/EventRegister/RiRegister"
 
 const EventRegister = () => {
   return (
-    <div>EventRegister</div>
+   <>
+   <Register/>
+   </>
   )
 }
 

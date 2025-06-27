@@ -83,3 +83,12 @@ body{
     max-width: 100%;
     box-sizing: border-box;
 }
+
+
+/* mobile responsive */
+
+@media (max-width: 760px){
+    .navItems{
+        display: none;
+    }
+}

@@ -114,3 +114,18 @@
 
 
 }
+
+
+
+
+
+@media (max-width: 768px){
+    .media_item01{
+        display: none;
+    }
+    .socialMedia{
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
