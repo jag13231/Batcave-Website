@@ -88,6 +88,8 @@
     letter-spacing: 1px;
     text-align: center;
     margin-top: 50px;
+    width: 500px;
+    margin-left: 150px;
 }
 .blog-container2{
     height: 382px;
@@ -204,6 +206,8 @@
         text-align: center;
         margin-top: 15px;
         margin-bottom: 15px;
+        width: auto;
+        margin-left: 0;
      }
      .blog-container2{
         width: 100%;
