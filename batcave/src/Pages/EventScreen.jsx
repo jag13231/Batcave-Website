@@ -1,10 +1,10 @@
 import React from 'react'
-import EventBanner from '../Components/EventFolder/EventBanner'
+import EventLayout from '../Components/EventFolder/EventsLayout'
 
 const EventScreen = () => {
   return (
     <>
-    <EventBanner />
+    <EventLayout />
     </>
   )
 }
