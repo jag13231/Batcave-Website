@@ -22,16 +22,19 @@ const EventsLayout = () => {
   who want to push their vehicles to the limit in a controlled, 
   safe environment."
         image2={UpcomingEveImg2}
+        EventTitle2="ANNUAL CAR SHOW & EXPO"
       />
       <UpComingEvents
         title="Special Events"
         image1={UpcomingEveImg3}
-        EventTitle="TRACK DAY - FST & FURIOUS"
+        EventTitle="BATCAVE - DRIFT & SLIDE"
         EventDescription="Fast & Furious is an exclusive, 
   high-energy driving event designed for car enthusiasts 
   who want to push their vehicles to the limit in a controlled, 
   safe environment."
         image2={UpcomingEveImg3}
+        EventTitle2="BATCAVE - DRIFT & SLIDE"
+    
       />
       <Footer />
     </>

@@ -8,6 +8,8 @@ const UpComingEvents = ({
   EventTitle,
   EventDescription,
   image2,
+  EventTitle2
+
 }) => {
   return (
     <>
@@ -33,14 +35,16 @@ const UpComingEvents = ({
                 </p>
               </span>
               <h2>{EventDescription}</h2>
-              <button className="Upevents-button">Register </button>
-              <button className="Upevents-button">Details</button>
+              <div className="upevent_buttons">
+                <button className="Upevents-button">Register </button>
+                <button className="Upevents-button">Details</button>
+              </div>
             </div>
           </div>
           <div className="Upcoming_event">
             <img src={image2} alt="" />
             <div className="upcoming-Event-details">
-              <h3>{EventTitle}</h3>
+              <h3>{EventTitle2}</h3>
               <span>
                 <p>
                   <LuCalendarDays />
@@ -56,8 +60,10 @@ const UpComingEvents = ({
                 </p>
               </span>
               <h2>{EventDescription}</h2>
-              <button className="Upevents-button">Register </button>
-              <button className="Upevents-button">Details</button>
+              <div className="upevent_buttons">
+                <button className="Upevents-button">Register </button>
+                <button className="Upevents-button">Details</button>
+              </div>
             </div>
           </div>
         </div>
