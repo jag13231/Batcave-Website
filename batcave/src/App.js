@@ -1,9 +1,10 @@
 import Homepage from "./Components/HompageFolder/Header";
 import HomeScreen from "./Pages/HomeScreen";
-import EventScreen from "./Pages/EventScreen"
-import EventRegister from "./Pages/EventRegister"
-import {Route, Routes} from "react-router-dom";
+import EventScreen from "./Pages/EventScreen";
+import EventRegister from "./Pages/EventRegister";
+import EventDetails from "./Pages/EventDetailsPage"
 import Blogpage from "./Pages/Blogpage";
+import {Route, Routes} from "react-router-dom";
 import "./App.css";
 
 function App() {
@@ -11,10 +12,13 @@ function App() {
     <>
     <Homepage />
       <Routes>
-        <Route path="/" element={<HomeScreen />} />
+        <Route path="/" element = {<HomeScreen />} />
         <Route path="/events" element={<EventScreen />} />
         <Route  path="/eventregister" element={<EventRegister />}/>
-        <Route  path="/Blog" element={<Blogpage />}/>
+        <Route path="/blog" element={<Blogpage />} />
+        {/* Add the route for EventDetails */}
+        <Route path="/eventdetails" element={<EventDetails />} />
+        
       </Routes>
     </>
   );
