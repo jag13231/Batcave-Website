@@ -36,12 +36,13 @@ body {
     font-family: "Agdasima", sans-serif;
     margin-top: 32px;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 100%;
     letter-spacing: 5%;
     text-align: center;
-
 }
+
+
 
 /* EventSButtons Styles */
 .events-buttons {

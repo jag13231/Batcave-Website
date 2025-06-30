@@ -8,6 +8,8 @@ const UpComingEvents = ({
   EventTitle,
   EventDescription,
   image2,
+  EventTitle2
+
 }) => {
   return (
     <>
@@ -40,7 +42,7 @@ const UpComingEvents = ({
           <div className="Upcoming_event">
             <img src={image2} alt="" />
             <div className="upcoming-Event-details">
-              <h3>{EventTitle}</h3>
+              <h3>{EventTitle2}</h3>
               <span>
                 <p>
                   <LuCalendarDays />
