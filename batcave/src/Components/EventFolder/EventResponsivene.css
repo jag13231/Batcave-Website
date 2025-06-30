@@ -1,0 +1,437 @@
+/* Responsive styles for Upcoming Events */
+@media (max-width: 1200px) {
+    .Upcoming_event_container {
+        gap: 10px;
+    }
+
+    .Upcoming_event {
+        width: 90vw;
+        max-width: 600px;
+    }
+
+    .Upcoming_event img {
+        width: 45vw;
+        max-width: 240px;
+    }
+
+    .upcoming-Event-details {
+        width: 45vw;
+        max-width: 320px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .Upcoming_event_container {
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        height: auto;
+        margin-top: 24px;
+    }
+
+    .Upcoming_event {
+        flex-direction: row;
+        width: 98vw;
+        max-width: 98vw;
+        height: auto;
+        min-height: 220px;
+        padding: 8px 0;
+    }
+
+    .Upcoming_event img {
+        width: 40vw;
+        max-width: 180px;
+        height: auto;
+        min-width: 120px;
+        border-radius: 12px;
+    }
+
+    .upcoming-Event-details {
+        width: 55vw;
+        max-width: 350px;
+        height: auto;
+        padding: 0 8px;
+    }
+}
+
+@media (max-width: 768px) {
+    .upcoming-events {
+        height: auto;
+        padding: 16px 0;
+    }
+
+    .Upcoming_event_container {
+        flex-direction: column;
+        gap: 18px;
+        margin-top: 12px;
+        padding: 0 2vw;
+        height: auto;
+    }
+
+    .Upcoming_event {
+        flex-direction: column;
+        align-items: stretch;
+        width: 98vw;
+        max-width: 98vw;
+        min-width: 0;
+        height: auto;
+        padding: 8px 0;
+        gap: 10px;
+    }
+
+    .Upcoming_event img {
+        width: 100%;
+        max-width: 100vw;
+        height: 160px;
+        object-fit: cover;
+        border-radius: 10px 10px 0 0;
+        margin-bottom: 0;
+    }
+
+    .upcoming-Event-details {
+        width: 100%;
+        max-width: 100vw;
+        height: auto;
+        padding: 8px 0 0 0;
+    }
+
+    .Upevents-button {
+        margin-left: 0;
+        width: 100%;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 500px) {
+    .upcoming-events h2 {
+        font-size: 1.1rem;
+        padding: 0 2vw;
+    }
+
+    .Upcoming_event {
+        border-radius: 8px;
+        padding: 4px 0;
+    }
+
+    .Upcoming_event img {
+        height: 120px;
+        border-radius: 8px 8px 0 0;
+    }
+
+    .upcoming-Event-details h3 {
+        font-size: 1rem;
+    }
+
+    .upcoming-Event-details span p {
+        font-size: 0.95rem;
+    }
+
+    .upcoming-Event-details h2 {
+        font-size: 0.95rem;
+        margin-top: 10px;
+    }
+
+    .Upevents-button {
+        font-size: 0.95rem;
+        padding: 8px 0;
+    }
+}
+
+/* Responsive styles for Upevents-button and events-button */
+
+@media (max-width: 900px) {
+
+    .Upevents-button,
+    .events-button {
+        width: 100%;
+        min-width: 0;
+        font-size: 18px;
+        padding: 10px 0;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .Upevents-button,
+    .events-button {
+        width: auto;
+        min-width: 118px;
+        max-width: 90vw;
+        display: block;
+        font-size: 0.95rem;
+        padding: 8px 18px;
+        margin-left: 0;
+        border-radius: 6px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .events-buttons {
+        flex-direction: column;
+        gap: 10px;
+        height: auto;
+        padding: 8px 0;
+        align-items: center;
+    }
+}
+
+/* Responsive styles for EventBanner.jsx */
+
+
+/* Tablet */
+@media (max-width: 900px) {
+    .event_Banner {
+        height: 180px;
+        padding: 0 4vw;
+    }
+    .event_Banner h1 {
+        font-size: 1.7rem;
+        margin-top: 18px;
+    }
+    .event_Banner p {
+        font-size: 1rem;
+        margin-top: 12px;
+        max-width: 98vw;
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .event_Banner {
+        height: 200px;
+        padding: 0 2vw;
+    }
+    .event_Banner h1 {
+        font-size: 1.1rem;
+        margin-top: 10px;
+    }
+    .event_Banner p {
+        font-size: 0.95rem;
+        margin-top: 8px;
+        padding: 0 2vw;
+    }
+}
+
+/* Responsive styles for EventsButtons.jsx */
+
+
+/* Tablet */
+@media (max-width: 900px) {
+    .events-buttons {
+        gap: 14px;
+        height: auto;
+        padding: 12px 0;
+    }
+    .events-button {
+        font-size: 18px;
+        min-width: 80px;
+        max-width: 140px;
+        height: 38px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .events-buttons {
+        flex-direction: column;
+        gap: 10px;
+        height: auto;
+        padding: 8px 0;
+        align-items: center;
+    }
+    .events-button {
+        width: auto;
+        min-width: 90px;
+        max-width: 90vw;
+        font-size: 0.95rem;
+        height: 36px;
+        padding: 8px 18px;
+        border-radius: 6px;
+        margin: 0 auto;
+    }
+}
+
+/* Responsive styles for UpComingEvents.jsx */
+.upcoming-events {
+    width: 100vw;
+    max-width: 100%;
+    background: #fff;
+    padding: 32px 0;
+    box-sizing: border-box;
+}
+
+.upcoming-events h2 {
+    font-family: "Agdasima", sans-serif;
+    font-weight: 700;
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 24px;
+    letter-spacing: 2px;
+}
+
+.Upcoming_event_container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.Upcoming_event {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    width: 650px;
+    max-width: 95vw;
+    min-width: 280px;
+    border-radius: 16px;
+    background: #000;
+    gap: 6px;
+    margin-bottom: 18px;
+    box-sizing: border-box;
+}
+
+.Upcoming_event img {
+    width: 324px;
+    max-width: 45vw;
+    min-width: 120px;
+    height: 100%;
+    max-height: 378px;
+    object-fit: cover;
+    border-radius: 16px 0 0 16px;
+    display: block;
+}
+
+.upcoming-Event-details {
+    flex: 1 1 0;
+    min-width: 140px;
+    max-width: 333px;
+    padding: 16px 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.upcoming-Event-details h3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.upcoming-Event-details span {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    margin-top: 8px;
+    flex-wrap: wrap;
+}
+
+.upcoming-Event-details span p {
+    font-size: 1rem;
+    color: #fff;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.upcoming-Event-details h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    color: #fff;
+    margin-top: 16px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.Upevents-button {
+    min-width: 118px;
+    max-width: 220px;
+    margin: 12px 8px 0 0;
+    align-self: flex-start;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+    .Upcoming_event_container {
+        flex-direction: column;
+        align-items: center;
+        gap: 18px;
+        margin-top: 18px;
+    }
+    .Upcoming_event {
+        flex-direction: column;
+        width: 98vw;
+        max-width: 98vw;
+        min-width: 0;
+        border-radius: 12px;
+        padding: 0;
+    }
+    .Upcoming_event img {
+        width: 100%;
+        max-width: 100vw;
+        min-width: 0;
+        height: 180px;
+        max-height: 220px;
+        border-radius: 12px 12px 0 0;
+    }
+    .upcoming-Event-details {
+        max-width: 100vw;
+        min-width: 0;
+        padding: 12px 4vw;
+    }
+    .Upevents-button {
+        width: auto;
+        min-width: 100px;
+        max-width: 90vw;
+        margin: 10px 0 0 0;
+        align-self: stretch;
+    }
+    .upcoming-events h2 {
+        font-size: 1.3rem;
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .upcoming-events {
+        padding: 18px 0;
+    }
+    .Upcoming_event {
+        border-radius: 8px;
+        margin-bottom: 12px;
+    }
+    .Upcoming_event img {
+        height: 110px;
+        border-radius: 8px 8px 0 0;
+    }
+    .upcoming-Event-details {
+        padding: 8px 2vw;
+    }
+    .upcoming-Event-details h3 {
+        font-size: 1rem;
+    }
+    .upcoming-Event-details span p {
+        font-size: 0.95rem;
+    }
+    .upcoming-Event-details h2 {
+        font-size: 0.95rem;
+        margin-top: 10px;
+    }
+    .Upevents-button {
+        font-size: 0.95rem;
+        padding: 8px 0;
+        min-width: 90px;
+        max-width: 98vw;
+    }
+    .upcoming-events h2 {
+        font-size: 1.05rem;
+    }
+}
