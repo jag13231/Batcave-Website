@@ -16,11 +16,11 @@ body{
 
 .navbar_container {
     width: 100%;
-    height: 100px;
+    height: 10vh;
     font-family: 'Agdasima', sans-serif;
     color: #ffffff;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     background: linear-gradient( #000000 48.08%, #252424 100%);
 
@@ -29,33 +29,31 @@ body{
 .navbar_container img {
     width: 142.74px;
     height: 24px;
+    margin-left: 50px;
 }
 
-.navItems {
-    width: 60%;
-    height: 100%;
-    margin-left: 150px;
+.nav-menu{
+    display: grid;
+    grid-template-columns: repeat(8,auto);
+    grid-gap: 10px;
+    justify-content: start;
+    text-align: center;
+    width: 80wv;
+    list-style: none;
 }
 
-.navItems ul {
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-    list-style-type: none;
-    margin-top: 38px;
-    font-size: 20px;
-    font-weight: 400;
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
 }
 
-.navItems li {
-    cursor: pointer;
-    font-family: 'Agdasima', sans-serif;
-    transition: 0.3s ease-in-out;
-}
 
-.navItems li:hover {
+.nav-link a:hover {
     color: orange;
 }
+
 
 .navButton {
     width: 85px;
@@ -83,12 +81,54 @@ body{
     max-width: 100%;
     box-sizing: border-box;
 }
+.nav-link a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+.menu-icon{
+    display: none;
+}
 
 
 /* mobile responsive */
 
 @media (max-width: 760px){
-    .navItems{
-        display: none;
+    .menu-icon{
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 1.8rem;
+        color: white;
+        transform: translate(-100%,90%);
+        cursor: pointer;
     }
+    .nav-menu{
+        background: linear-gradient(180deg, #000000 48.08%, #252424 100%);
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 90vh;
+        position: absolute;
+        top: 10vh;
+        left: -100%;
+        transition: all .4s ease;
+        overflow: auto;
+        opacity: 0;
+    }
+    .nav-menu.active{
+         background: linear-gradient(180deg, #000000 48.08%, #252424 100%);
+         left: 0;
+         transition: all .5s ease;
+         opacity: 1;
+    }
+    .nav-link{
+        text-align: center;
+        padding: 2rem;
+        width: 100%;
+        display: table;
+    }
+
 }
