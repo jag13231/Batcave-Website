@@ -35,8 +35,10 @@ const UpComingEvents = ({
                 </p>
               </span>
               <h2>{EventDescription}</h2>
-              <button className="Upevents-button">Register </button>
-              <button className="Upevents-button">Details</button>
+              <div className="upevent_buttons">
+                <button className="Upevents-button">Register </button>
+                <button className="Upevents-button">Details</button>
+              </div>
             </div>
           </div>
           <div className="Upcoming_event">
@@ -58,8 +60,10 @@ const UpComingEvents = ({
                 </p>
               </span>
               <h2>{EventDescription}</h2>
-              <button className="Upevents-button">Register </button>
-              <button className="Upevents-button">Details</button>
+              <div className="upevent_buttons">
+                <button className="Upevents-button">Register </button>
+                <button className="Upevents-button">Details</button>
+              </div>
             </div>
           </div>
         </div>
