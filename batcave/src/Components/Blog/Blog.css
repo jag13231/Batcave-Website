@@ -1,0 +1,120 @@
+body
+{
+    background-color: none;
+} 
+.blog_main_cointainer
+{
+    
+    display: flex;
+    gap: 34px;
+    padding-left: 42px;
+    font-family: Agdasima;
+    color: #FFFFFF;
+   height: 100vh;
+    margin-top: 111px;
+    margin-left: 42px;
+    /* background-color: red; */
+      /* margin: 0; */
+
+      /* Other directions you can try:
+         to bottom, to left, to top right, etc. */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      color: white;
+      
+}
+.blog_image
+{
+    width: 553px;
+    height: 653px;
+    
+   
+
+}
+.blog_heading
+{
+    margin-bottom: 26px;
+}
+.event_date{
+    /* width:100%;
+    height:24px; */
+    display: flex;
+    margin-top: 16px;
+    /* text-align: center; */
+    /* align-content: center; */
+    /* justify-content: center; */
+    font-family: "Agdasima";
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 5%;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+.blog_paragraph
+{
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 5%;
+    
+}
+
+.paragraph_container
+{
+   width: 775px;
+ padding-right: 36px;
+    height: 216px;
+}
+.blog_second_paragraph
+{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 5%;
+    font-family: poppins;
+    margin-right: 36px;
+    
+
+}
+
+@media (max-width: 768px) {
+    .blog_main_cointainer {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+        margin-top: 0px;
+        width:253px;
+        height: auto;
+        margin-left: 0px;
+    }
+    .blog_image {
+        width: 100%;
+        height: auto;
+    }
+    .paragraph_container {
+        width: 241px;
+        padding: 1px;
+        
+    }
+    .blog_paragraph {
+        font-size: 14px;
+        line-height: 150%;
+        padding: 12px;
+    }
+    .blog_second_paragraph {
+        font-size: 14px;
+        line-height: 150%;
+        padding: 12px;
+    }
+    .blog_heading {
+        text-align: center;
+        font-size: 43px;
+    }
+    .event_date {
+        justify-content: center;
+        font-size: 16px;
+    }
+}
