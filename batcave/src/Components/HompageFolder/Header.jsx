@@ -26,10 +26,10 @@ const Header = () => {
             <li className="nav-link" onClick={closeSideBar}><Link  to = '/'> News / Blogs </Link></li>
             <li className="nav-link" onClick={closeSideBar}><Link  to = '/'>Membership</Link> </li>
             <li className="nav-link" onClick={closeSideBar}><Link  to = '/'>Contact</Link> </li>
-             <li><button className="navButton">Login</button></li>
+            <li><button className="navButton">Login</button></li>
           </ul>
         </div>
-
+        <button className="res-Button">Login</button>
       </div>
     </>
   );

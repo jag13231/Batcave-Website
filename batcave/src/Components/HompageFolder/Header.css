@@ -90,7 +90,23 @@ body{
 .menu-icon{
     display: none;
 }
+.res-Button{
+    width: 85px;
+    height: 40px;
+    border-radius: 8px;
+    background: linear-gradient(180deg, #000000 48.08%, #252424 100%);
 
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Agdasima', sans-serif;
+    cursor: pointer;
+}
+ li:nth-child(8) {
+  display: none;
+  
+}
 
 /* mobile responsive */
 
@@ -129,6 +145,12 @@ body{
         padding: 2rem;
         width: 100%;
         display: table;
+    }
+    .res-Button{
+        display: none;
+    }
+     li:nth-child(8) {
+       display: block;
     }
 
 }
