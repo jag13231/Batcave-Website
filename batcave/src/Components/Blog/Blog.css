@@ -23,6 +23,7 @@ body
       justify-content: center;
 
       color: white;
+      /* border: 1px solid white; */
       
 }
 .blog_image
@@ -37,7 +38,7 @@ body
 {
     margin-bottom: 26px;
 }
-.event_date{
+.event_dates{
     /* width:100%;
     height:24px; */
     display: flex;
