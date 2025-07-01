@@ -12,7 +12,7 @@ function blog() {
       </div>
             <div className='paragraph_container'>
                  <div><h1 className='blog_heading'>BATCAVE - DRIFT & SLIDE</h1></div>
-                    <div className='event_date'>
+                    <div className='event_dates'>
                            <span>
                               {" "}
                               <LuCalendarDays />  12th March 2024
