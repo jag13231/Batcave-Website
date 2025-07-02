@@ -1,10 +1,11 @@
 import React from 'react'
 import './RiRegister.css'
+import {Link} from "react-router-dom"
 
 const RiRegister = () => {
   return (
     <div className='main_container'>
-       <div><button className='backbutton'>Back</button></div>
+      <Link to={"/events"}> <div><button className='backbutton'>Back</button></div></Link>
        <h3 className='regis_heading'>EVENT REGISTRATION</h3>
        <div className='regis_steps_container'>
               <div className='circle'><h1>1</h1> <div className='line'></div></div>
