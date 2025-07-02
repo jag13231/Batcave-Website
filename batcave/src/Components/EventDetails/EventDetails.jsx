@@ -1,5 +1,5 @@
 import React from 'react'
-import './Eventdetails.css'
+
 
 const EventDetails = () => {
   return (
