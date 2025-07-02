@@ -129,6 +129,9 @@
     line-height: normal;
     letter-spacing: 1.4px;
     border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+
 }
 .event-icon{
     width: 48px;
