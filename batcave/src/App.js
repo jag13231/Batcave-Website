@@ -16,11 +16,11 @@ function App() {
         <Route path="/events" element={<EventScreen />} />
         <Route  path="/eventregister" element={<EventRegister />}/>
         <Route path="/blog" element={<Blogpage />} />
-        
         <Route path="/eventdetails" element={<EventDetails />} />
+      </Routes>
+        
        
         
-      </Routes>
     </>
   );
 }
