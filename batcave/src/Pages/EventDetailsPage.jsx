@@ -1,5 +1,5 @@
 import React from 'react'
-import EventDetails from "./Components/EventDetails/Eventdetails"
+import EventDetails from "../Components/EventDetails/EventDetails"
 
 const EventDetailsPage = () => {
   return (
