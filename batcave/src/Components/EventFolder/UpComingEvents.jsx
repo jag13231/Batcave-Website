@@ -1,5 +1,6 @@
 import React from "react";
 import { LuCalendarDays, LuClock, LuLocateFixed } from "react-icons/lu";
+import {Link} from "react-router-dom"
 import "./Events.css";
 
 const UpComingEvents = ({
@@ -36,7 +37,7 @@ const UpComingEvents = ({
               </span>
               <h2>{EventDescription}</h2>
               <div className="upevent_buttons">
-                <button className="Upevents-button">Register </button>
+                <Link to={"/eventregister"}><button className="Upevents-button">Register </button></Link>
                 <button className="Upevents-button">Details</button>
               </div>
             </div>

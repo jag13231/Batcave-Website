@@ -21,9 +21,9 @@ const Header = () => {
           <ul className={ icon ? 'nav-menu active':'nav-menu'}>
             <li className="nav-link" onClick={closeSideBar}><Link to = '/'>Home</Link> </li>
             <li className="nav-link" onClick={closeSideBar}><Link  to = '/'>About us</Link> </li>
-            <li className="nav-link" onClick={closeSideBar}><Link  to = '/'>Event</Link> </li>
+            <li className="nav-link" onClick={closeSideBar}><Link  to = '/events'>Event</Link> </li>
             <li className="nav-link" onClick={closeSideBar}><Link  to = '/'>Gallery</Link> </li>
-            <li className="nav-link" onClick={closeSideBar}><Link  to = '/'> News / Blogs </Link></li>
+            <li className="nav-link" onClick={closeSideBar}><Link  to = '/blog'> News / Blogs </Link></li>
             <li className="nav-link" onClick={closeSideBar}><Link  to = '/'>Membership</Link> </li>
             <li className="nav-link" onClick={closeSideBar}><Link  to = '/'>Contact</Link> </li>
             <li><button className="navButton">Login</button></li>
