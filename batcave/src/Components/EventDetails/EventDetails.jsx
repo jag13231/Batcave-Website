@@ -1,9 +1,14 @@
 import React from 'react'
-import "./EventDetails.css"
+
 
 const EventDetails = () => {
   return (
-    <div>EventDetails</div>
+    <div className='event_details_container'>
+
+       <div><button className='backbutton'>Back</button></div>
+      
+dfdf
+    </div>
   )
 }
 
