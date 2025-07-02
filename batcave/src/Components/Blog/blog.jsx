@@ -1,11 +1,10 @@
 
 import React from 'react'
-import './Blog.css'
+import './blog.css'
 import blogimage from '../../Assets/blogimage.png'
 import { LuCalendarDays, LuClock} from "react-icons/lu";
 import { GoLocation } from "react-icons/go";
-
-function blog() {
+const blog = () => {
   return (
     <>
     <div className="blog_main_cointainer">
@@ -27,7 +26,6 @@ function blog() {
       </div>
     </div>
     </>
-  
   )
 }
 

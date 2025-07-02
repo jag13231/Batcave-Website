@@ -3,8 +3,8 @@ import HomeScreen from "./Pages/HomeScreen";
 import EventScreen from "./Pages/EventScreen";
 import EventRegister from "./Pages/EventRegister";
 import EventDetails from "./Pages/EventDetailsPage"
-import Blogpage from "./Pages/Blogpage";
 import {Route, Routes} from "react-router-dom";
+import Blogpage from "./Pages/BlogPage";
 import "./App.css";
 
 function App() {
