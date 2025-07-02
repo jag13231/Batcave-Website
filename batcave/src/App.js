@@ -16,8 +16,9 @@ function App() {
         <Route path="/events" element={<EventScreen />} />
         <Route  path="/eventregister" element={<EventRegister />}/>
         <Route path="/blog" element={<Blogpage />} />
-        {/* Add the route for EventDetails */}
+        
         <Route path="/eventdetails" element={<EventDetails />} />
+       
         
       </Routes>
     </>
