@@ -20,7 +20,7 @@ const Header = () => {
         <div className="navItems">
           <ul className={ icon ? 'nav-menu active':'nav-menu'}>
             <li className="nav-link" onClick={closeSideBar}><Link to = '/'>Home</Link> </li>
-            <li className="nav-link" onClick={closeSideBar}><Link  to = '/'>About us</Link> </li>
+            <li className="nav-link" onClick={closeSideBar}><Link  to = '/about'>About us</Link> </li>
             <li className="nav-link" onClick={closeSideBar}><Link  to = '/events'>Event</Link> </li>
             <li className="nav-link" onClick={closeSideBar}><Link  to = '/'>Gallery</Link> </li>
             <li className="nav-link" onClick={closeSideBar}><Link  to = '/blog'> News / Blogs </Link></li>

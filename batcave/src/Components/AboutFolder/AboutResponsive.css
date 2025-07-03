@@ -1,0 +1,172 @@
+    
+/* Tablet devices (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .Batcave-journey {
+    width: 90%;
+    height: auto;
+    padding: 20px 0;
+    gap: 20px;
+  }
+
+  .journey-desc,
+  .About-our-journey {
+    width: 90%;
+    font-size: 20px;
+  }
+
+  .Batcave-desc {
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    gap: 20px;
+  }
+
+  .about-batcave {
+    width: 100%;
+    height: auto;
+    font-size: 18px;
+  }
+
+  .Batcave-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .event-members {
+    flex-wrap: wrap;
+    height: auto;
+    width: 95%;
+    gap: 30px;
+  }
+
+  .evnt-mems-show {
+    width: 45%;
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .benefits-container {
+    flex-direction: column;
+    height: auto;
+    gap: 30px;
+    width: 95%;
+  }
+
+  .benefits,
+  .Exclusive {
+    width: 100%;
+    height: auto;
+  }
+
+  .Bat-imgs {
+    width: 100%;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .imgs {
+    flex-direction: row;
+    gap: 15px;
+  }
+
+  .img1,
+  .img2,
+  .img3 {
+    width: 100%;
+    height: auto;
+  }
+
+  .Exclusive_content,
+  .Exclusive_content1,
+  .Exclusive_content2 {
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    height: auto;
+    gap: 15px;
+  }
+
+  .exe-events,
+  .exe-title,
+  .exe-title1,
+  .exe-desc {
+    width: 100%;
+  }
+
+  .exe-title,
+  .exe-title1 {
+    font-size: 28px;
+  }
+
+  .exe-desc {
+    font-size: 20px;
+  }
+}
+
+
+/* Mobile devices (max-width: 768px) */
+@media (max-width: 768px) {
+  .About-our-journey {
+    font-size: 28px;
+  }
+
+  .journey-desc {
+    font-size: 16px;
+    height: auto;
+  }
+
+  .about-batcave {
+    font-size: 16px;
+  }
+
+  .count {
+    font-size: 28px;
+  }
+
+  .ach {
+    font-size: 16px;
+  }
+
+  .whyBatcave span {
+    font-size: 28px;
+  }
+
+  .whyBatcave p {
+    font-size: 18px;
+  }
+
+  .exe-title,
+  .exe-title1 {
+    font-size: 24px;
+  }
+
+  .exe-desc {
+    font-size: 18px;
+  }
+
+  .mem-icon {
+    font-size: 28px;
+  }
+
+  .event-members {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .evnt-mems-show {
+    width: 80%;
+  }
+
+  .Exclusive_content,
+  .Exclusive_content1,
+  .Exclusive_content2 {
+    flex-direction: column;
+  }
+
+  .Batcave-journey,
+  .Batcave-desc,
+  .benefits-container {
+    width: 100%;
+  }
+}

@@ -1,0 +1,328 @@
+@font-face {
+    font-family: "Agd";
+    src: url("../../Assets/Agdasima-Regular.ttf")
+}
+@font-face {
+    font-family: "Poppins";
+    src: url("../../Assets/Poppins-Regular.ttf");
+}
+
+.Batcave-journey{
+    width: 1350px;
+    height:264px;
+    margin-top: 42px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('../../Assets/Aboutbanner.jpg');
+    background-position: center;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+}
+.About-our-journey{
+    width: 464px;
+    height: 48px;
+    font-family:"Agd";
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.journey-desc{
+    width:807px;
+    height: 84px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Agd";
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+  
+}
+
+ .Batcave-desc{
+    width: 1350px;
+    height: 300px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 52px;
+}
+
+.Batcave-img{
+    width: 556px;
+    height: 100%;
+    border-radius: 16px;
+}
+.Batcave-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+.about-batcave{
+    width: 774px;
+    height: 180px;
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 400;
+    text-align:start;
+    align-content: center;
+    letter-spacing: 2px;
+    color: white;
+}
+.event-members{
+    width: 1300px;
+    height: 190px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 53px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 77px;
+}
+.evnt-mems-show{
+    width: 324px;
+    height: 181px;
+    /* border: 2px solid white; */
+    box-shadow: 1px 0 0 1px whitesmoke;
+    background-image:url("../../Assets/tokens.jpg") ; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    border-radius: 8px;
+}
+.active-members{
+    width: 140px;
+    height: 129px;
+    margin-left: auto;
+    margin-right:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    
+}
+.mem-icon {
+    width:40px;
+    height: 40px;
+    font-size: 36px;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+}
+.count{
+    width:100px;
+    height: 40px;
+    font-size: 36px;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-family: "Agd";
+
+} 
+
+.ach{
+    width:100%;
+    height: 40px;
+    font-size: 36px;
+    text-align: center;
+    color:  rgba(102, 102, 102, 1);
+    font-size: 20px;
+    font-weight: 400px;
+    font-family: "Agd";
+    font-weight: 400;
+}
+
+.benefits-container{
+    width: 1350px;
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 53px;
+}
+.benefits{
+    width: 600px;
+    height:570px;
+   
+    
+}
+.whyBatcave{
+    width: 100%;
+    height: 253px;
+}
+.whyBatcave span{
+    font-family: "Agd";
+    font-size: 38px;
+    font-weight: 700;
+    color: white;
+}
+.whyBatcave p{
+    font-family: "Agd";
+    font-size: 24px;
+    font-weight: 400px;
+    color: rgba(102, 102, 102, 1);
+    letter-spacing: 2px;
+}
+.Bat-imgs{
+    width: 550px ;
+    height: 317px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+   
+  
+}
+.img1{
+    width: 250px;
+    height: 100%;
+}
+.img1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px 8px 8px 8px  ;
+}
+.imgs{
+    width: 293px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ 
+}
+.img2{
+    width: 100%;
+    height:155px;
+    
+}
+.img2 img{
+    width: 100%;
+    height: 100%;
+}
+.img3{
+    width: 100%;
+    height:155px;
+}
+  
+    
+.img3 img{
+    width: 100%;
+    height:100%;
+    border-radius: 8px 8px 59px 8px;
+}
+.Exclusive{
+    width:700px;
+    height: 570px;
+    background-image: url("../../Assets/chain.png");
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+.Exclusive_content{
+    width: 667px;
+    height: 154px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+}
+.Exclusive_content1{
+    width: 667px;
+    height: 154px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 42px;
+    background: white;
+    
+}
+.Exclusive_content2{
+    width: 667px;
+    height: 154px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 42px;
+    background: white;
+ 
+}
+.trophy{
+    width:52px;
+    height:52px;
+    font-size: 52px;
+    align-content: center;
+    text-align: center;
+  
+}
+.exe-events{
+    width:469px;
+    height:98px;
+}
+.exe-title{
+    width: 204px;
+    height: 38px;
+    text-align: center;
+    font-family: "Agd";
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 2px;
+}
+.exe-title1{
+    width: 295px;
+    height: 38px;
+    text-align: center;
+    font-family: "Agd";
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 2px;
+}
+.exe-desc{
+    width:469px;
+    height:56px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Agd";
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+
+
+
+    
