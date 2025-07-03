@@ -169,53 +169,151 @@
 }
 
 
-@media (max-width: 768px){
-  .footer_main_container{
-    width: 100%;
-    justify-content: center;
-    margin-top: 40px;
-  }
-  .footer_heading{
-    width: 100%;
+
+
+/* Tablet Devices (≤1024px) */
+@media (max-width: 1024px) {
+  .footer_heading {
+    font-size: 28px;
+    padding-left: 40px;
     text-align: center;
-    padding: 0;
-    padding-top: 30px;
-    margin-top: 100px;
-    margin-bottom: 20px;
   }
-  .main_form_container{
-    width: 100%;
-    text-align: center;
+
+  .main_form_container {
+    flex-direction: column;
     align-items: center;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
+    margin-left: 0;
+    gap: 10px;
   }
+
   .inputbox_mail {
-     align-items: center;
-     margin: 0;
-     width: 200px;
-     padding: 20px;
-  }
-  .footer_button{
-    width: 100px;
-    height: 50px;
-  }
-  .footer_info{
-    width: 100%;
+    width: 80%;
     margin: 0;
+    padding-left: 20px;
+  }
+
+  .footer_button {
+    width: 70%;
+  }
+
+  .footer_info {
+    margin-left: 0;
     text-align: center;
   }
-  .contact_info{
-     width: 100%;
-     flex-wrap: wrap;
+
+  .contact_info {
     justify-content: center;
-  }
-  .mail_image{
-    display: none;
-  }
-  .footer_bottom{
     flex-wrap: wrap;
   }
+
+  .footer_bottom {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .footer_bottom_links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .mail_image {
+    width: 100px;
+    height: 100px;
+    left: 10px;
+    top: 10px;
+  }
+}
+
+/* Mobile Devices (≤768px) */
+@media (max-width: 768px) {
+  .footer_main_container {
+    padding: 20px 10px;
+    height: auto;
+  }
+
+  .footer_heading {
+    font-size: 24px;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .main_form_container {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    margin-top: 16px;
+    gap: 12px;
+  }
+
+  .inputbox_mail {
+    width: 90%;
+    font-size: 14px;
+    padding: 12px;
+  }
+
+  .footer_button {
+    width: 90%;
+    font-size: 16px;
+    height: 48px;
+  }
+
+  .membership_heading {
+    font-size: 14px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+
+  .footer_info {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .contact_info {
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+  }
+
+  .enquiries {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .enquries_number,
+  .enquries_content {
+    font-size: 14px;
+    padding-left: 0;
+  }
+
+  .border {
+    display: none;
+  }
+
+  .footer_bottom {
+    flex-direction: column;
+    gap: 8px;
+    padding: 10px;
+  }
+
+  .footer_bottom_heading,
+  .footer_bottom_links {
+    font-size: 12px;
+  }
+
+  .mail_image {
+    width: 80px;
+    height: 80px;
+    left: 10px;
+    display: none;
+  }
+  .txt-box ul li{
+    justify-content: center;
+  }
+
 }
