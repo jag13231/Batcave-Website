@@ -110,7 +110,7 @@ body{
 
 /* mobile responsive */
 
-@media (max-width: 760px){
+@media (max-width: 768px){
     .menu-icon{
         display: block;
         position: absolute;
@@ -154,3 +154,27 @@ body{
     }
 
 }
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .navbar_container{
+    width: 100%;
+  }
+  .nav-link a{
+    font-size: 17px;
+  }
+  .navbar_container img {
+    width: 113.74px;
+    height: 24px;
+    margin-left: 11px;
+}
+.nav-menu {
+    grid-gap: 0px;
+}
+.res-Button{
+    width: 67px;
+    height: 34px;
+    font-size: 16px
+}
+}
+
